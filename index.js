@@ -73,7 +73,10 @@ _Answer:_ ${i.answer}
   console.log('Done');
 
   console.log('Writing HTML');
-  const head = `<head><link rel="stylesheet" href="https://sindresorhus.com/github-markdown-css/github-markdown.css"></head>`;
+  const head = `<head>
+  <title>X-Wing Rulings (updated: ${today})</title>
+  <link rel="stylesheet" href="https://sindresorhus.com/github-markdown-css/github-markdown.css">
+</head>`;
   const html = marked(markdown, { gfm: true, breaks: true });
   const body = `<body><div class="markdown-body" style="max-width: 960px; margin: 20px auto;">${html}</div></body>`;
   const htmlWithCSS = `<html>${head}${body}</html>`;
