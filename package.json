@@ -9,10 +9,9 @@
     "start": "node index.js"
   },
   "devDependencies": {
+    "jsonfile": "^5.0.0",
     "marked": "^0.5.1",
     "puppeteer": "^1.8.0"
   },
-  "dependencies": {
-    "jsonfile": "^5.0.0"
-  }
+  "dependencies": {}
 }
