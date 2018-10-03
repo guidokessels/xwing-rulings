@@ -43,7 +43,7 @@ async function start() {
   await browser.close();
 
   console.log('Saving JSON');
-  jsonfile.writeFileSync('dist/xwing-rulings.json', results, { spaces: 2 });
+  jsonfile.writeFileSync('docs/xwing-rulings.json', results, { spaces: 2 });
   console.log('Done');
 
   console.log('Creating Markdown');
@@ -67,7 +67,7 @@ _Answer:_ ${i.answer}
 `
   );
 
-  fs.writeFileSync('dist/xwing-rulings.md', [header /*,toc*/, ...formatted].join('\n'));
+  fs.writeFileSync('docs/xwing-rulings.md', [header /*,toc*/, ...formatted].join('\n'));
   console.log('Done');
 }
 
