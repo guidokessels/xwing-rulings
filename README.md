@@ -1,1 +1,1 @@
-# xwing-rules
+# xwing-rulings

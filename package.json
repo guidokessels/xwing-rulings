@@ -1,8 +1,8 @@
 {
-  "name": "xwing-rules",
+  "name": "xwing-rulings",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/guidokessels/xwing-rules",
+  "repository": "https://github.com/guidokessels/xwing-rulings",
   "author": "Guido Kessels <mail@guidokessels.com>",
   "license": "MIT",
   "scripts": {
