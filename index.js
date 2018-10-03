@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 const jsonfile = require('jsonfile');
+const marked = require('marked');
 const fs = require('fs');
 
 const THREAD_URL = `https://community.fantasyflightgames.com/topic/277390-x-wing-official-rulings/`;
@@ -67,8 +68,16 @@ _Answer:_ ${i.answer}
 `
   );
 
-  fs.writeFileSync('docs/index.md', [header /*,toc*/, ...formatted].join('\n'));
+  const markdown = [header /*,toc*/, ...formatted].join('\n');
+  fs.writeFileSync('docs/xwing-rulings.md', markdown);
   console.log('Done');
+
+  console.log('Writing HTML');
+  const head = `<head><link rel="stylesheet" href="https://sindresorhus.com/github-markdown-css/github-markdown.css"></head>`;
+  const html = marked(markdown, { gfm: true, breaks: true });
+  const body = `<body><div class="markdown-body" style="max-width: 960px; margin: 20px auto;">${html}</div></body>`;
+  const htmlWithCSS = `<html>${head}${body}</html>`;
+  fs.writeFileSync('docs/index.html', htmlWithCSS);
 }
 
 start();

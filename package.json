@@ -9,6 +9,7 @@
     "start": "node index.js"
   },
   "devDependencies": {
+    "marked": "^0.5.1",
     "puppeteer": "^1.8.0"
   },
   "dependencies": {
