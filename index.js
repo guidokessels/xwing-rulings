@@ -67,7 +67,7 @@ _Answer:_ ${i.answer}
 `
   );
 
-  fs.writeFileSync('docs/xwing-rulings.md', [header /*,toc*/, ...formatted].join('\n'));
+  fs.writeFileSync('docs/index.md', [header /*,toc*/, ...formatted].join('\n'));
   console.log('Done');
 }
 
