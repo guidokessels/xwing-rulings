@@ -1,5 +1,5 @@
 # X-Wing Official Rulings
-Last updated: Wed, 03 Oct 2018 20:14:06 GMT
+Last updated: Wed, 03 Oct 2018 21:21:34 GMT
 
 This page is generated from the [Official Rulings thread](https://community.fantasyflightgames.com/topic/277390-x-wing-official-rulings/) at the FantasyFlightGames Community Forum. That is an official source for game rulings, in addition to all documents on the [X-Wing Second Edition website](https://www.fantasyflightgames.com/en/products/x-wing-second-edition/#/support-section).
 

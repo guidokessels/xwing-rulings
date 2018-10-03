@@ -76,6 +76,7 @@ _Answer:_ ${i.answer}
   const head = `<head>
   <title>X-Wing Rulings (updated: ${today})</title>
   <link rel="stylesheet" href="https://sindresorhus.com/github-markdown-css/github-markdown.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>`;
   const html = marked(markdown, { gfm: true, breaks: true });
   const body = `<body><div class="markdown-body" style="max-width: 960px; margin: 20px auto;">${html}</div></body>`;
