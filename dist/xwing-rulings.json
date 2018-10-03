@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What does “ignores obstacles” mean? Do Han Solo [Pilot, Customized YT-1300] and Qi’ra [Crew] work together? What about Dash Rendar [YT-2400] and Outrider [Title]?",
+    "answer": "When an effect says a ship “ignores obstacles,” it means that ship “ignores the effects of obstacles.” A ship that is “ignoring obstacles” does not apply the effects of overlapping or moving through them. When that ship performs an attack that is obstructed by an obstacle it ignores the effects of the obstruction, so the defender does not roll 1 additional defense die being obstructed by the obstacles the attacker is ignoring.\n\nHowever, the obstacles are still treated as being present for effects that check for their presence or absence. Additionally, an attack is obstructed by an obstacle even while the effects of the obstacle are ignored. This applies to cards such as Outrider, Han Solo [Pilot, Customized YT-1300], and Trick Shot (Talent).\n\nAdditionally, other ships do not ignore the obstacle when resolving effects that interact with a ship that is ignoring obstacles. For instance, while a ship that is ignoring obstacles defends, if the attack is obstructed, it still rolls 1 additional defense die because the attacker is not ignoring the effects of obstacles."
+  },
+  {
+    "question": "If the difficulty of an action is not stated (such as Lando Calrissian [Rebel, Crew]’s unique action or the coordinate action “Vizier” [TIE Reaper] can perform as part of its pilot ability), what is the difficulty of that action?",
+    "answer": "White. However, note that if a ship is instructed to perform an action “on its action bar” this way, it uses the difficulty of the action on its action bar."
+  },
+  {
+    "question": "When a ship is destroyed by a game effect triggered with \"before engaging,” does it still engage?",
+    "answer": "Yes, because the game has already reached that initiative step, it is not removed until after all ships of that initiative have engaged, per simultaneous fire."
+  },
+  {
+    "question": "Does a Proximity Mine, when dropped overlapping a ship in the System Phase, detonate immediately?",
+    "answer": "Yes. When an object is placed underneath a ship, that ship counts as overlapping that object."
+  },
+  {
+    "question": "Does the Autopilot Drone [Escape Craft]’s ability trigger if it is destroyed by another method other than running out of charges?",
+    "answer": "No."
+  },
+  {
+    "question": "Can a ship perform an attack against an enemy ship at range 0 (with bases touching) when the range from the firing arc is range 1?",
+    "answer": "You cannot attack a ship at range 0 of you. This was an omission from the rules reference that will be clarified in the next update."
+  },
+  {
+    "question": "Does Loose Cargo count as a device or obstacle, since it’s listed on the Device Rules page?",
+    "answer": "It is an obstacle, not a device."
+  },
+  {
+    "question": "When a ship moves through a Proximity Mine [Device] (and overlaps) does the timing window for Sabine Wren [Crew] occur before or after the ship has an opportunity to perform an action?",
+    "answer": "Trick question! Sabine only affects devices classified as bombs, not mines and other devices, such as a Proximity Mine."
+  },
+  {
+    "question": "If a ship with Cloaking Device [Illicit] rolls a focus result and then fails while attempting to decloak, what happens?",
+    "answer": "The ship does not remove its cloak token."
+  },
+  {
+    "question": "May a ship use Elusive [Talent] to recover charges on other upgrades by fully executing red maneuvers?",
+    "answer": "No. Elusive and other effects that refer to recovering charges only apply to the charges of that specific card, unless the effect explicitly states otherwise (such as Chopper [Rebel, Crew])."
+  },
+  {
+    "question": "If a ship performs an action and the action is modified by one or more effects that cause the ship to “treat the action as white” and one or more effects that causes the ship to “treat the action as red,” what color is the action?",
+    "answer": "Red. It defaults to the more restrictive color."
+  },
+  {
+    "question": "If a ship has red evade linked to another action (such as the TIE Aggressor or Attack Shuttle), Debris Gambit [Talent] equipped, and is within range of an obstacle, does it treat the linked red evade as white?",
+    "answer": "Yes, Debris Gambit modifies any red evade action on the ship’s action bar, including linked actions."
+  },
+  {
+    "question": "If a ship with Han Solo [Rebel, Gunner] engages at initiative 7 (through Roark Garnet, Heightened Reflexes [Force Power], etc.) and performs its primary attack, can it subsequently attack from the same turret arc using Han Solo’s bonus attack at initiative 7?",
+    "answer": "Yes. The ship can resolve the two effects in either order, and so if Han’s bonus attack is resolved second, it can perform both."
+  },
+  {
+    "question": "Does a ship’s firing arc extend to to range 3 even if the weapon using that arc does not?",
+    "answer": "Yes. For example, if Drea Renthal (Scum, BTL-A4 Y-wing) is equipped with a Dorsal Turret [Turret], she can use her ability on ships at range 1–3 in her turret arc."
+  },
+  {
+    "question": "Does Kavil (Scum, BTL-A4 Y-wing) roll an additional attack die when attacking with a turret weapon when the turret arc indicator is set to his front arc?",
+    "answer": "Yes. Additionally, note that Kavil would roll an additional attack die when performing an attack that specifies bullseye arc, even though the target is also by definition in his front arc."
+  },
+  {
+    "question": "If Lieutenant Sai [Lambda-class Shuttle] coordinates a ship and it performs an action followed by a linked action, can Lieutenant Sai perform the linked action instead of the initial action?",
+    "answer": "No. Lieutenant Sai can only perform the initial action."
+  },
+  {
+    "question": "Airen Cracken’s [Z-95 Headhunter] pilot ability allows another friendly ship to “perform an action, treating it as red.” Can that ship choose to perform a red action, treating it as red?",
+    "answer": "Yes."
+  },
+  {
+    "question": "Does the Wounded Pilot [Damage Card]’s first effect (“After you perform an action, roll 1 attack die. On a <hit> or <critical hit> result, gain 1 stress token.”) resolve after you repair it?",
+    "answer": "No. The card is repaired, and thus has no effect to resolve."
+  },
+  {
+    "question": "Does the StarViper-class Attack Platform’s Microthrusters ship ability affect the barrel roll that results from becoming tractored?",
+    "answer": "Microthrusters does affect this barrel roll. The player whose effect assigned the tractor token determines the direction and position of the template."
+  },
+  {
+    "question": "If the Loose Cargo from Rigged Cargo Chute [Illicit] overlaps another ship, what happens?",
+    "answer": "It is placed underneath the ship, and the ship overlaps it."
+  },
+  {
+    "question": "Do TIE Strikers (and Reapers) skip their perform action step if they overlap an asteroid or another ship with their Aileron’s ability maneuver?",
+    "answer": "No. It is only during the Execute Maneuver step that a ship skips its Perform Action step for overlapping a ship or obstacle."
+  },
+  {
+    "question": "Can an ionized ship perform an action that is linked to its focus action after performing its focus action?",
+    "answer": "No. Focus is the only action that it can perform during the Perform Action step."
+  },
+  {
+    "question": "Can a TIE Advanced x1 that rolled 1 additional die from Advanced Targeting Computer spend the lock later in the attack? If it does, can it change 1 <hit> into a <critical hit>?",
+    "answer": "While performing an attack, a TIE Advanced x1 can spend its lock to reroll attack dice after rolling 1 additional die. \n\nIt can also change 1 <hit> result to a <critical hit> result and then spend the lock to reroll attack dice. However, note that it cannot change 1 <hit> result to a <critical hit> result after spending the lock, as it no longer has the defender locked."
+  },
+  {
+    "question": "After being destroyed, can “Deathfire” [TIE Bomber] launch a device that cannot normally be launched?",
+    "answer": "No."
+  },
+  {
+    "question": "What ship’s initiative does Listening Device condition assigned by Informant [Crew] trigger at?",
+    "answer": "Listening Device’s effect triggers at the initiative of the ship that has the condition."
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "xwing-rules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/guidokessels/xwing-rules",
+  "author": "Guido Kessels <mail@guidokessels.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^1.8.0"
+  },
+  "dependencies": {
+    "jsonfile": "^5.0.0"
+  }
+}
