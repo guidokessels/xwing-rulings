@@ -1,5 +1,5 @@
 # X-Wing Official Rulings
-Last updated: Thu, 13 Dec 2018 22:22:40 GMT
+Last updated: Mon, 28 Jan 2019 23:44:04 GMT
 
 This page is generated from the [Official Rulings thread](https://community.fantasyflightgames.com/topic/277390-x-wing-official-rulings/) at the FantasyFlightGames Community Forum. That is an official source for game rulings, in addition to all documents on the [X-Wing Second Edition website](https://www.fantasyflightgames.com/en/products/x-wing-second-edition/#/support-section).
 
@@ -95,78 +95,71 @@ _Answer:_ Yes, Debris Gambit modifies any red evade action on the ship’s actio
 
 
 
-### _Question:_ If a ship with Han Solo [Rebel, Gunner] engages at initiative 7 (through Roark Garnet, Heightened Reflexes [Force Power], etc.) and performs its primary attack, can it subsequently attack from the same turret arc using Han Solo’s bonus attack at initiative 7?
-<a name="12"></a>
-
-_Answer:_ Yes. The ship can resolve the two effects in either order, and so if Han’s bonus attack is resolved second, it can perform both.
-
-
-
 ### _Question:_ Does a ship’s firing arc extend to to range 3 even if the weapon using that arc does not?
-<a name="13"></a>
+<a name="12"></a>
 
 _Answer:_ Yes. For example, if Drea Renthal (Scum, BTL-A4 Y-wing) is equipped with a Dorsal Turret [Turret], she can use her ability on ships at range 1–3 in her turret arc.
 
 
 
 ### _Question:_ Does Kavil (Scum, BTL-A4 Y-wing) roll an additional attack die when attacking with a turret weapon when the turret arc indicator is set to his front arc?
-<a name="14"></a>
+<a name="13"></a>
 
 _Answer:_ Yes. Additionally, note that Kavil would roll an additional attack die when performing an attack that specifies bullseye arc, even though the target is also by definition in his front arc.
 
 
 
 ### _Question:_ If Lieutenant Sai [Lambda-class Shuttle] coordinates a ship and it performs an action followed by a linked action, can Lieutenant Sai perform the linked action instead of the initial action?
-<a name="15"></a>
+<a name="14"></a>
 
 _Answer:_ No. Lieutenant Sai can only perform the initial action.
 
 
 
 ### _Question:_ Airen Cracken’s [Z-95 Headhunter] pilot ability allows another friendly ship to “perform an action, treating it as red.” Can that ship choose to perform a red action, treating it as red?
-<a name="16"></a>
+<a name="15"></a>
 
 _Answer:_ Yes.
 
 
 
 ### _Question:_ Does the Wounded Pilot [Damage Card]’s first effect (“After you perform an action, roll 1 attack die. On a <hit> or <critical hit> result, gain 1 stress token.”) resolve after you repair it?
-<a name="17"></a>
+<a name="16"></a>
 
 _Answer:_ No. The card is repaired, and thus has no effect to resolve.
 
 
 
 ### _Question:_ Does the StarViper-class Attack Platform’s Microthrusters ship ability affect the barrel roll that results from becoming tractored?
-<a name="18"></a>
+<a name="17"></a>
 
 _Answer:_ Microthrusters does affect this barrel roll. The player whose effect assigned the tractor token determines the direction and position of the template.
 
 
 
 ### _Question:_ If the Loose Cargo from Rigged Cargo Chute [Illicit] overlaps another ship, what happens?
-<a name="19"></a>
+<a name="18"></a>
 
 _Answer:_ It is placed underneath the ship, and the ship overlaps it.
 
 
 
 ### _Question:_ Do TIE Strikers (and Reapers) skip their perform action step if they overlap an asteroid or another ship with their Aileron’s ability maneuver?
-<a name="20"></a>
+<a name="19"></a>
 
 _Answer:_ No. It is only during the Execute Maneuver step that a ship skips its Perform Action step for overlapping a ship or obstacle.
 
 
 
 ### _Question:_ Can an ionized ship perform an action that is linked to its focus action after performing its focus action?
-<a name="21"></a>
+<a name="20"></a>
 
 _Answer:_ No. Focus is the only action that it can perform during the Perform Action step.
 
 
 
 ### _Question:_ Can a TIE Advanced x1 that rolled 1 additional die from Advanced Targeting Computer spend the lock later in the attack? If it does, can it change 1 <hit> into a <critical hit>?
-<a name="22"></a>
+<a name="21"></a>
 
 _Answer:_ While performing an attack, a TIE Advanced x1 can spend its lock to reroll attack dice after rolling 1 additional die. 
 
@@ -175,14 +168,23 @@ It can also change 1 <hit> result to a <critical hit> result and then spend the 
 
 
 ### _Question:_ After being destroyed, can “Deathfire” [TIE Bomber] launch a device that cannot normally be launched?
-<a name="23"></a>
+<a name="22"></a>
 
 _Answer:_ No.
 
 
 
 ### _Question:_ What ship’s initiative does Listening Device condition assigned by Informant [Crew] trigger at?
-<a name="24"></a>
+<a name="23"></a>
 
 _Answer:_ Listening Device’s effect triggers at the initiative of the ship that has the condition.
+
+
+
+### _Question:_ [Note: this is an amendment to the prior ruling from October 3rd, 2018]
+
+ If a ship with Han Solo [Rebel, Gunner] is made to engage at initiative 7 (through Roark Garnet, Heightened Reflexes [Force Power], etc.), must it perform Han Solo's bonus attack first?
+<a name="24"></a>
+
+_Answer:_ Yes. Han Solo [Rebel, Gunner]'s effect occurs at initiative 7 before any ship at that initiative engages (including the one to which Han Solo is equipped), so Han Solo's bonus attack is always performed first. This means that it cannot perform Han Solo's bonus attack and then perform a subsequent attack from the same turret arc.
 

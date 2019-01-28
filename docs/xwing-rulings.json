@@ -48,10 +48,6 @@
     "answer": "Yes, Debris Gambit modifies any red evade action on the ship’s action bar, including linked actions."
   },
   {
-    "question": "If a ship with Han Solo [Rebel, Gunner] engages at initiative 7 (through Roark Garnet, Heightened Reflexes [Force Power], etc.) and performs its primary attack, can it subsequently attack from the same turret arc using Han Solo’s bonus attack at initiative 7?",
-    "answer": "Yes. The ship can resolve the two effects in either order, and so if Han’s bonus attack is resolved second, it can perform both."
-  },
-  {
     "question": "Does a ship’s firing arc extend to to range 3 even if the weapon using that arc does not?",
     "answer": "Yes. For example, if Drea Renthal (Scum, BTL-A4 Y-wing) is equipped with a Dorsal Turret [Turret], she can use her ability on ships at range 1–3 in her turret arc."
   },
@@ -98,5 +94,9 @@
   {
     "question": "What ship’s initiative does Listening Device condition assigned by Informant [Crew] trigger at?",
     "answer": "Listening Device’s effect triggers at the initiative of the ship that has the condition."
+  },
+  {
+    "question": "[Note: this is an amendment to the prior ruling from October 3rd, 2018]\n\n If a ship with Han Solo [Rebel, Gunner] is made to engage at initiative 7 (through Roark Garnet, Heightened Reflexes [Force Power], etc.), must it perform Han Solo's bonus attack first?",
+    "answer": "Yes. Han Solo [Rebel, Gunner]'s effect occurs at initiative 7 before any ship at that initiative engages (including the one to which Han Solo is equipped), so Han Solo's bonus attack is always performed first. This means that it cannot perform Han Solo's bonus attack and then perform a subsequent attack from the same turret arc."
   }
 ]
