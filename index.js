@@ -37,7 +37,10 @@ async function start() {
         .map(n => {
           const [question, answer] = n.innerText.split("A:");
           return {
-            question: question.replace("Q:", "").trim(),
+            question: question
+              .replace("Q:", "")
+              .trim()
+              .replace(/\n/g, ""),
             answer: answer.trim().replace(/<([a-z ]*)>/g, (_, match) => {
               return (
                 "[" +

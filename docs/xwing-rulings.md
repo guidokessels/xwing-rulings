@@ -1,5 +1,5 @@
 # X-Wing Official Rulings
-Last updated: Thu, 21 Mar 2019 19:47:31 GMT
+Last updated: Thu, 21 Mar 2019 19:51:10 GMT
 
 This page is generated from the [Official Rulings thread](https://community.fantasyflightgames.com/topic/277390-x-wing-official-rulings/) at the FantasyFlightGames Community Forum. That is an official source for game rulings, in addition to all documents on the [X-Wing Second Edition website](https://www.fantasyflightgames.com/en/products/x-wing-second-edition/#/support-section).
 
@@ -181,9 +181,7 @@ _Answer:_ Listening Device’s effect triggers at the initiative of the ship tha
 
 
 
-### _Question:_ [Note: this is an amendment to the prior ruling from October 3rd, 2018]
-
- If a ship with Han Solo [Rebel, Gunner] is made to engage at initiative 7 (through Roark Garnet, Heightened Reflexes [Force Power], etc.), must it perform Han Solo's bonus attack first?
+### _Question:_ [Note: this is an amendment to the prior ruling from October 3rd, 2018] If a ship with Han Solo [Rebel, Gunner] is made to engage at initiative 7 (through Roark Garnet, Heightened Reflexes [Force Power], etc.), must it perform Han Solo's bonus attack first?
 <a name="24"></a>
 
 _Answer:_ Yes. Han Solo [Rebel, Gunner]'s effect occurs at initiative 7 before any ship at that initiative engages (including the one to which Han Solo is equipped), so Han Solo's bonus attack is always performed first. This means that it cannot perform Han Solo's bonus attack and then perform a subsequent attack from the same turret arc.
