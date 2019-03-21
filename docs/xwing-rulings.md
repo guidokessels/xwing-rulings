@@ -1,5 +1,5 @@
 # X-Wing Official Rulings
-Last updated: Mon, 28 Jan 2019 23:49:49 GMT
+Last updated: Thu, 21 Mar 2019 19:47:31 GMT
 
 This page is generated from the [Official Rulings thread](https://community.fantasyflightgames.com/topic/277390-x-wing-official-rulings/) at the FantasyFlightGames Community Forum. That is an official source for game rulings, in addition to all documents on the [X-Wing Second Edition website](https://www.fantasyflightgames.com/en/products/x-wing-second-edition/#/support-section).
 
@@ -163,7 +163,7 @@ _Answer:_ No. Focus is the only action that it can perform during the Perform Ac
 
 _Answer:_ While performing an attack, a TIE Advanced x1 can spend its lock to reroll attack dice after rolling 1 additional die. 
 
-It can also change 1 <hit> result to a <critical hit> result and then spend the lock to reroll attack dice. However, note that it cannot change 1 <hit> result to a <critical hit> result after spending the lock, as it no longer has the defender locked.
+It can also change 1 [Hit] result to a [Critical Hit] result and then spend the lock to reroll attack dice. However, note that it cannot change 1 [Hit] result to a [Critical Hit] result after spending the lock, as it no longer has the defender locked.
 
 
 
@@ -181,8 +181,102 @@ _Answer:_ Listening Device’s effect triggers at the initiative of the ship tha
 
 
 
-### _Question:_ If a ship with Han Solo [Rebel, Gunner] is made to engage at initiative 7 (through Roark Garnet, Heightened Reflexes [Force Power], etc.), must it perform Han Solo's bonus attack first?
+### _Question:_ [Note: this is an amendment to the prior ruling from October 3rd, 2018]
+
+ If a ship with Han Solo [Rebel, Gunner] is made to engage at initiative 7 (through Roark Garnet, Heightened Reflexes [Force Power], etc.), must it perform Han Solo's bonus attack first?
 <a name="24"></a>
 
 _Answer:_ Yes. Han Solo [Rebel, Gunner]'s effect occurs at initiative 7 before any ship at that initiative engages (including the one to which Han Solo is equipped), so Han Solo's bonus attack is always performed first. This means that it cannot perform Han Solo's bonus attack and then perform a subsequent attack from the same turret arc.
+
+
+
+### _Question:_ How do bomb and mine devices interact with remotes?
+<a name="25"></a>
+
+_Answer:_ Each bomb device (Bomblet, Proton Bomb, Seismic Charge) has the following adjustment to the reference text found in the Rules Reference:
+
+-Change all instances of "ship" to "ship and remote."
+
+Mines do not affect remotes.
+
+This will be reflected in a forthcoming update to the Rules Reference.
+
+
+
+### _Question:_ If one effect says to "treat an action as purple" and another says to "treat an action as red," what happens?
+<a name="26"></a>
+
+_Answer:_ Actions have three difficulties, from least to most restrictive: white, red, and purple.
+
+If two or more effects would alter the color of an action from its default color, the action is treated as the most restrictive of those colors. So, if an action is "treated as red" and "treated as purple" at the same time, it is treated as purple, as this is the most restrictive.
+
+
+
+### _Question:_ If an effect instructs a ship to gain an additional lock token (such as Petty Officer Thanisson [Crew]), can a player choose to assign the ship a lock token with a different number from the first lock token?
+<a name="27"></a>
+
+_Answer:_ No. It must gain a lock of the same number as the first (which, in most cases, causes the ship to lose the original lock, resulting in only one lock token).
+
+
+
+### _Question:_ If a Quadrijet Transfer Spacetug uses its "Spacetug Tractor Array" action and cannot choose a ship in its front arc at range 1, what happens?
+<a name="28"></a>
+
+_Answer:_ The action fails.
+
+
+
+### _Question:_ If a ship that is equipped with Kanan Jarrus [Crew] uses Inertial Dampeners [Illicit] to perform a white stationary maneuver, in which order to Kanan's ability and the "gain 1 stress token" portion of Inertial Dampeners' ability occur?
+<a name="29"></a>
+
+_Answer:_ Both abilities have the same timing window: after the ship executes the maneuver. Thus, after the ship executes the white stationary maneuver, if the player chooses to spend one Force charge to activate Kanan, two abilities enter the ability queue: Inertial Dampeners' "gain 1 stress token" and Kanan Jarrus' "remove 1 stress token." The player who controls both effects determines the order they enter the queue, and then the abilities resolve in that order. If a player wants the ship to gain and then remove a stress token, Inertial Dampeners' ability should be placed into the queue before Kanan's ability.
+
+
+
+### _Question:_ Dalan Oberos [M12-L Kimogila]'s pilot ability reads "At the start of the Engagement Phase, you may choose 1 shielded enemy ship in your bullseye arc and spend 1 charge. If you do, that ship loses 1 shield and you recover 1 shield." Must both "that ship loses 1 shield" and "you recover 1 shield" be able to resolve for either to resolve?
+<a name="30"></a>
+
+_Answer:_ Yes. "That ship loses 1 shield and you recover 1 shield" is a single effect, and so both parts must be able to resolve for either to occur.
+
+
+
+### _Question:_ Do Paige Tico [Crew] and "Deathfire" [TIE Bomber]'s abilities supersede the "one device per round" limitation?
+<a name="31"></a>
+
+_Answer:_ Yes. These abilities allow one ship to drop a second device in the same round (at the relevant timing windows), as they do not include the "if you have not dropped or launched a device this round" limitation (as included on Elon Kappehl).
+
+
+
+### _Question:_ While a ship executes a Tallon Roll maneuver, if it cannot be placed at the middle position (center line aligned to the center line of the template), is it able to fully execute the maneuver?
+<a name="32"></a>
+
+_Answer:_ Yes, provided there is a valid position at which to place it. While executing a Tallon Roll, if a ship can be placed in at least one of the three possible positions (center line aligned to the front, middle, or back of the template), it must choose one of the valid positions, and it fully executes the maneuver. If a valid position exists, it cannot choose an invalid position to partially complete the maneuver. As with a barrel roll, while resolving this, the player may attempt to place the ship at the front, middle, and back before choosing a valid position.
+
+
+
+### _Question:_ If an effect says that a ship "loses a shield" (or "loses shields"), has that ship suffered damage?
+<a name="33"></a>
+
+_Answer:_ No. While suffering damage does cause a ship to lose shields (if applicable), if an effect causes a ship to lose one or more shields directly, it has not suffered damage.
+
+
+
+### _Question:_ How is Han Solo [Rebel, Modified YT-1300]'s ability categorized? Is it a dice modification? Is it a reroll? What is its timing window?
+<a name="34"></a>
+
+_Answer:_ Han Solo's ability is treated as a dice modification effect that is not a reroll. Because it is a dice modification effect, when attacking or defending, it triggers during the Modify Dice step. Note, however, that it can also affect other die rolls, such as the roll to determine if a ship suffers damage from overlapping or moving through an asteroid.
+
+
+
+### _Question:_ How does Han Solo [Rebel, Modified YT-1300]'s ability interact with C-3PO [Rebel, Crew]?
+<a name="35"></a>
+
+_Answer:_ The "if you do and you roll exactly that many evade results..." portion of C-3PO's ability triggers occurs after the dice are rolled, before the Modify Dice step. Thus, Han Solo's effect occurs after C-3PO's effect has been resolved. If using Han Solo after using C-3PO, the added die must be rerolled.
+
+
+
+### _Question:_ How does Han Solo [Rebel, Modified YT-1300]'s ability interact with "Midnight" [TIE/fo Fighter]?
+<a name="36"></a>
+
+_Answer:_ "Midnight" prevents dice modification. Because Han Solo's ability is a dice modification effect, "Midnight" prevents it from being used.
 
