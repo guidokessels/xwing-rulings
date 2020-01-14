@@ -146,5 +146,45 @@
   {
     "question": "How does Han Solo [Rebel, Modified YT-1300]'s ability interact with \"Midnight\" [TIE/fo Fighter]?",
     "answer": "\"Midnight\" prevents dice modification. Because Han Solo's ability is a dice modification effect, \"Midnight\" prevents it from being used."
+  },
+  {
+    "question": "Which effects are abilities?",
+    "answer": "An ability is text from a card a player controls (such a ship card, upgrade card, damage card, remote card, device, condition card, etc).\n\nA few abilities are constant (such as the \"Gain a [Frontarc] primary weapon with a value of '3'\" portion of Moldy Crow). Constant abilities are not resolved via the ability queue. \n\nMost abilities are triggered, occurring only at a specified timing window (such as the \"During the End Phase, do not remove up to 2 focus tokens\" portion of Moldy Crow). Triggered abilities are resolved via the ability queue.\n\nEach triggered ability has the following parts:\n\nA timing (when the ability is added to the ability queue)\nAn effect (what the ability does)\n\nAdditionally, an ability can have one or more of the following:\n\nOne or more requirements the ship must meet\nOne or more costs the ship must pay\n\nA text box can contain multiple abilities if there are multiple constant abilities or triggers that can add an ability to the queue (as in the Moldy Crow example)."
+  },
+  {
+    "question": "What is meant by a \"requirement\" for an ability?",
+    "answer": "A requirement for an ability is a conditional if-statement, such as \"if you are tractored\" or \"if the defender is in your bullseye arc.\" A ship being in-arc at range for an attack made as part of a triggered ability, such as Snap Shot or Foresight, is also a requirement for that ability.\n\nIf an ability's requirements are not met at the time the ability would be added to the queue, it cannot be added to the queue.\n\nIf the ability's requirements are not met at the time the ability would be resolved from the queue, the ability is not resolved and is instead removed from the queue. \n\nIf an ability instructs you to make a choice, such as choosing a ship, that is not itself a requirement to initiate an ability."
+  },
+  {
+    "question": "When is the cost for an ability paid?",
+    "answer": "The cost for an ability is paid when the ability is resolved.\n\nAn ability cannot be added to the queue if its cost could not be paid at the time it is added.\n\nIf an ability's cost cannot be paid when it would be resolved from the queue, the ability is not resolved and is instead removed from the queue. The ability's cost is not paid.\n\nAn ability can have multiple costs. If it does, all costs must be paid to resolve it. If all costs cannot be paid, no costs are paid and the ability is removed from the queue and not resolved."
+  },
+  {
+    "question": "When specifically during an attack do effects that apply \"while you perform an attack\" or \"while you defend\" apply?",
+    "answer": "Abilities are applied at the step in the attack at which they take effect. For example, in the case of Predator, as this is a dice modification, it is applied at Step 2b: Modify Attack Dice. Note, however, that effects resolved during Step 2b: Modify Attack Dice and 3b: Modify Defense Dice do not use the ability queue, as they are resolved in the order described in that section of the rules reference."
+  },
+  {
+    "question": "If a ship executes a stationary maneuver in arc at range 2 of an enemy ship with Snap Shot equipped (or in the bullseye arc of an enemy ship with Foresight equipped), can the ship with Snap Shot (or Foresight) perform the bonus attack?",
+    "answer": "Yes."
+  },
+  {
+    "question": "While \"Scourge\" Skutu performs an attack using Snap Shot, if the defender is in \"Scourge\" Skutu's bullseye arc, does \"Scourge\" Skutu add an additional attack die?",
+    "answer": "Yes."
+  },
+  {
+    "question": "If a ship with Fine-Tuned Controls (or another ability that triggers \"after you execute/fully execute a maneuver\") fully executes a maneuver in arc at range 2 of a ship equipped with Snap Shot, how is this resolved?",
+    "answer": "This is resolved one of several ways depending on which player is first player.\n\nIn all cases, both abilities (\"After you fully execute a maneuver, you may spend 1 force charge to perform a boost or barrel roll action\" and \"After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack\") are added to the ability queue.\n\nIf the first player controls the ship with Fine-Tune Controls, that player resolves this ability before Snap Shot is resolved. If, after performing a boost or barrel roll, the ship with Fine-Tuned Controls is no longer in range or arc to be chosen as a target for Snap Shot, Snap Shot cannot be resolved and is removed from the queue.\n\nIf the second player controls the ship with Fine-Tuned Controls, their opponent resolves Snap Shot first."
+  },
+  {
+    "question": "How do abilities that alter the speed, difficulty, and/or bearing of a maneuver that a ship reveals during its Reveal Dial step and executes during its Execute Maneuver step resolve? For example, if Hera Syndulla [Attack Shuttle] is equipped with R4 Astromech and Seasoned Navigator, and also has the Damaged Engine Damage Card, what happens?",
+    "answer": "R4 Astromech and Damaged Engine (and other constant effects that alter the difficulty of a maneuver, such as Nien Nunb [Crew], L3-37's Programming, and Leia Organa [Rebel and Resistance, Crew]) apply only during the Execute Maneuver step and for effects that trigger after that ship executes a maneuver.\n\nSo, after Hera's dial is revealed, Hera's player may add Hera's pilot ability and Seasoned Navigator's ability to the ability queue in either order. Both abilities resolve, and if Seasoned Navigator's ability is resolved, the difficulty of the maneuver is increased during the Execute Maneuver step (i.e. the difficulty has not yet been increased when Hera's pilot ability is resolved).\n\nThen, during the Execute Maneuver step, all abilities that alter the difficulty of the maneuver are cumulative as normal.\n\nNote that abilities that alter a maneuver without causing the ship to select a new maneuver on its dial do not affect the ship's \"revealed maneuver\" as referenced by abilities such as Ric Olié's pilot ability."
+  },
+  {
+    "question": "After a Nantex-class starfighter executes its maneuver, if it uses its Pinpoint Tractor Array ship ability to assign a tractor token to itself so that it can rotate its turret arc, and then it barrel rolls itself over a debris field as a result of becoming tractored, giving it a stress token, how does this resolve?",
+    "answer": "After a Nantex-class starfighter executes its maneuver, it has the option to add an ability in the queue with the effect of \"gain 1 tractor token to perform a [Rotate] action.\"\n\nWhen this ability resolves, the Nantex-class starfighter pays the cost (\"gain 1 tractor token\") to resolve this effect. The Nantex-class starfighter gains 1 tractor token, then performs the rotate action. Note that it does not resolve the game effect of becoming tractored (which triggers after the first time a ship becomes tractored each round) until after it fully resolves the ability by completing the rotate action.\n\nOnce the ability is fully resolved, the game effect that triggers after a ship becomes tractored is applied to the Nantex-class starfighter (before any other abilities on the queue are resolved), prompting the Nantex-class starfighter's player to move it, if they desire. If they do and this movement takes the Nantex-class starfighter onto a debris cloud, it resolves the effects of moving through or overlapping the debris cloud, including gaining 1 stress token. \n\nFinally, any other abilities on the queue are then resolved in order."
+  },
+  {
+    "question": "Can Snap Shot or Foresight be chosen as a special weapon to be used for a ship's attack during the Engagement Phase?",
+    "answer": "Yes. The phrase \"after an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack\" allows the attack to be used as a bonus attack under the specified circumstances, but does not disqualify it from being used during the Engagement Phase."
   }
 ]
